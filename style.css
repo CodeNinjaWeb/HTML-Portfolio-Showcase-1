@@ -1,9 +1,26 @@
-body{
-    background-color: #232326ff;
-    margin: auto;
+body {
+  background-color: #232326ff;
+  margin: 0px;
 }
-#header{
-    height: 80px;
-    background: #bf3245ff;
-    display: flex;
+#navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-size: large;
+  font-weight: bold;
+  background-color: #bf3245ff;
+}
+#nav-items{
+  display: flex;
+  gap: 3rem;
+  list-style-type: none;
+  padding-right: 30px;
+  font-size: 1.35rem;
+}
+#nav-items a{
+  text-decoration: none;
+  color: white;
 }
