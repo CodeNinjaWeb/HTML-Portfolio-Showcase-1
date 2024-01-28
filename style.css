@@ -102,5 +102,9 @@ body {
   font-size: 22px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: grey;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  background-color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
 }
