@@ -114,17 +114,55 @@ body {
   margin-left: 20px;
   margin-right: 20px;
 }
-button{
+button {
   width: 130px;
   height: 50px;
   background-color: #303740ff;
   color: white;
   font-weight: bold;
   border-radius: 5px;
-  text-align: center;
+  text-align: center !important;
   font-size: 1.1rem;
   margin: 0px;
+  padding: 0%;
 }
-button:hover{
+button:hover {
   background-color: #bf3245ff;
+}
+.footer-design {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: auto;
+  height: 80vh;
+  color: whitesmoke;
+  background-color: #303840ff;
+  border-bottom: 5px solid #bf3245ff;
+}
+#footer-head {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 4rem;
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  align-content: center;
+  margin: 0px;
+  padding-top: 150px;
+}
+#footer-para {
+  font-size: 1.2rem;
+  font-weight: 200;
+  font-style: "Poppins", sans-serif;
+  color: white;
+}
+#footer-end {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: auto;
+  height: 10vh;
+  color: whitesmoke;
+  background-color: #303840ff;
+  padding-top: 10px;
 }
