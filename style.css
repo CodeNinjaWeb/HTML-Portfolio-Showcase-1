@@ -1,6 +1,7 @@
 body {
   background-color: #232326ff;
   margin: 0px;
+  font-family:'Poppins',sans-serif;
 }
 #navbar {
   display: flex;
@@ -11,9 +12,8 @@ body {
   width: 100%;
   height: 70px;
   font-size: large;
-  font-weight: bold;
+  font-weight: 350;
   background-color: #bf3245ff;
-  z-index: 10;
 }
 #nav-items{
   display: flex;
@@ -34,6 +34,7 @@ body {
   width: 100%;
   height: 100vh;
   color: whitesmoke;
+  background-color: #303840ff;
 }
 #hero-head{
   font-size: 60px;
@@ -50,18 +51,43 @@ body {
   color: red;
   margin: 0px;
 }
-#GridSection{
+#FlexSection{
   background-color: #45567dff;
   width: 100%;
-  height: 100vh;
-  text-align: center;
+  height: auto;
   padding-top: 20px;
 }
-#grid-heading{
+#flex-heading{
   font-size: 40px;
   font-weight: 700;
   font-family: 'Raleway', sans-serif;
   color: white;
-  text-decoration-line: underline;
-  margin-bottom: 6rem;
+  border-bottom: 0.2rem solid white;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.flexsystem{
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  justify-content: center;
+  margin: auto;
+}
+#flex-1 img{
+  width: 350px;
+  height: 350px;
+  padding: 10px 20px;
+  object-fit: cover;
+  border-radius: 7px;
+  margin-bottom: 0px;
+}
+#flh1{
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-size: 20px;
+  background-color: gray;
+  padding-bottom: 20px;
+  justify-content: center;
 }
