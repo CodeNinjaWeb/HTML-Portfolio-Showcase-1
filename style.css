@@ -1,7 +1,7 @@
 body {
   background-color: #232326ff;
   margin: 0px;
-  font-family:'Poppins',sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 #navbar {
   display: flex;
@@ -15,18 +15,18 @@ body {
   font-weight: 350;
   background-color: #bf3245ff;
 }
-#nav-items{
+#nav-items {
   display: flex;
   gap: 3rem;
   list-style-type: none;
   padding-right: 30px;
   font-size: 1.35rem;
 }
-#nav-items a{
+#nav-items a {
   text-decoration: none;
   color: white;
 }
-.hero-div{
+.hero-div {
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -36,10 +36,10 @@ body {
   color: whitesmoke;
   background-color: #303840ff;
 }
-#hero-head{
+#hero-head {
   font-size: 60px;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   align-content: center;
   margin: 0px;
   padding-top: 300px;
@@ -47,47 +47,56 @@ body {
 #hero-para {
   font-size: 2.5rem;
   font-weight: 200;
-  font-style: 'Poppins', sans-serif;
+  font-style: "Poppins", sans-serif;
   color: red;
   margin: 0px;
 }
-#FlexSection{
-  background-color: #45567dff;
-  width: 100%;
-  height: auto;
-  padding-top: 20px;
-}
-#flex-heading{
+#flex-heading {
   font-size: 40px;
   font-weight: 700;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: white;
   border-bottom: 0.2rem solid white;
   text-align: center;
   margin-left: 150px;
   margin-right: 150px;
 }
-.flexsystem{
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 40px;
-  justify-content: center;
-  margin: auto;
+#FlexSection {
+  background-color: #45567dff;
+  width: auto;
+  height: auto;
+  margin: 0px;
+  padding-top: 20px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
 }
-#flex-1 img{
+.flexsystem1,
+.flexsystem2,
+.flexsystem3,
+.flexsystem4,
+.flexsystem5,
+.flexsystem6 {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+#flex-1 img,
+#flex-2 img,
+#flex-3 img,
+#flex-4 img,
+#flex-5 img,
+#flex-6 img {
   width: 350px;
   height: 350px;
-  padding: 10px 20px;
   object-fit: cover;
-  border-radius: 7px;
-  margin-bottom: 0px;
+  margin: 0px;
 }
-#flh1{
+#flh1 {
+  display: block;
   text-align: center;
   margin: auto;
   color: white;
-  font-size: 20px;
-  background-color: gray;
+  font-size: 22px;
+  padding-top: 20px;
   padding-bottom: 20px;
-  justify-content: center;
+  background-color: grey;
 }
