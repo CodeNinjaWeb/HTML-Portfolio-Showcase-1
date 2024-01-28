@@ -90,7 +90,7 @@ body {
   object-fit: cover;
   margin: 0px;
 }
-#flh1 {
+#flh1, #flh2, #flh3, #flh4, #flh5, #flh6 {
   display: block;
   text-align: center;
   margin: auto;
