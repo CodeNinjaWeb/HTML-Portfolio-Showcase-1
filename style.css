@@ -94,6 +94,7 @@ body {
   object-fit: cover;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: auto;
 }
 #flh1, #flh2, #flh3, #flh4, #flh5, #flh6 {
   display: block;
@@ -102,9 +103,9 @@ body {
   font-size: 22px;
   padding-top: 20px;
   padding-bottom: 20px;
-  margin-top: 0px;
-  margin-bottom: 30px;
-  background-color: gray;
+  margin-top: auto;
+  margin-bottom: 60px;
+  background-color: #303740ff;
   margin-left: 20px;
   margin-right: 20px;
 }
